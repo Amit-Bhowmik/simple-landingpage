@@ -4,37 +4,59 @@
     
 }
 
-.navigation{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 28px 40px;
-    
-    height: auto;
+.menubar{
+	width: 100%;
+    background-color: white;
+	position: fixed;
+	z-index: 999;
+	padding: 20px 20px ;
+    box-sizing: border-box;
+	transition: all 0.5s ease;
+	
+}
+.menubar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.menubar .menu-ul li {
+	list-style: none;
+	display: inline-block;
+    text-align: center;
+}
+.menubar .menu-ul li a{
+	display:block;
+    color: black;
+	font-size: 19px;
+	font-weight: 600;
+	margin-left: 25px;
+	transition:color 0.3s ease ;
+    text-decoration: none;
+    padding: 0px 15px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
 }
 
-.menu{
-    font-size: 19px;
-}
-.menu a{
-    text-decoration: none;
-    color: black;
-    padding: 0 15px;
-    padding-bottom: 5px;
-}
-.menu a:nth-child(1){
-    color: #9873FF;
-    border-bottom: 2px solid #9873FF;
-    border-radius: 10px;
-}
-.menu a:hover{
+
+.menubar .menu-ul li a:hover{
     color: #9873FF;
     border-bottom: 2px solid #9873FF;
     border-radius: 10px;
     transition: .2s;
 }
+.menu-btn{
+	color:#9873FF;
+	font-size: 23px;
+	cursor: pointer;
+	display: none;
+}
+
+.menu-btn i.active:before{
+	content: "\f00d";	
+}
+
 .button{
-    margin-top: -5px;
+    margin-top: -8px;
 }
 
 .btn{
@@ -51,12 +73,11 @@
 
 /*hero section styling*/
 .Home{
-    padding:0px 110px;
+    padding:100px 110px;
     display: flex;
     height: auto;
     flex-wrap: wrap;
     justify-content: space-between;
-  
     padding-bottom: 50px;
     
 }
@@ -83,19 +104,19 @@
 
 
 
-.hero-section-image{
+.hero-section-assets{
     width: 50%;
     display: flex;
     justify-content: center;
     padding-top: 50px;
     
 }
-.hero-section-image img{
+.hero-section-assets img{
     width: 70%;
     height: auto;
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
-    z-index: 1000;
+    z-index: 990;
 }
 
 
@@ -128,6 +149,8 @@
     text-align: center;
     box-shadow: 1px 1px 5px rgb(204, 203, 203);
     border-radius: 8px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     
 
 }
@@ -182,9 +205,8 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-}
-.lottie-file lottie-player{
-    width: 100%;
+}.lottie-file lottie-player{
+    width: 95%;
     height: auto;
 }
 /*success section styling*/
@@ -244,7 +266,6 @@
     width: 320px;
     height: 385px;
     margin-top: 80px;
-
     text-align: center;
 }
 .serv:nth-child(3) img{
@@ -285,6 +306,7 @@
 
 
 /*Recruitment Solution styling*/
+
 .solution{
     padding: 50px 30px;
     box-sizing: border-box;
@@ -321,6 +343,7 @@
 
 .image{
     width: 33%;
+    align-items: center;
     margin-top: -20px;
 }
 .right-text{
@@ -346,9 +369,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 200px 50px;
-
-    
+    padding: 200px 50px; 
 }
 .contact-text {
     width: 40%;
@@ -406,6 +427,8 @@
     color: #5C646E;
 }
 
+
+/*footer section styling*/
 .footer{
     width: 94%;
     padding: 40px 40px;

@@ -1,0 +1,456 @@
+@media(max-width: 1280px){
+    .menubar{
+        padding: 14px 14px ;
+        box-sizing: border-box; 
+    }
+    .menubar .menu-ul li a{
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 0px;
+        padding: 0px 12px;
+        box-sizing: border-box;
+    }
+    .max-width .logo img{
+        width: 130px;
+        height: auto;
+    }
+    .btn{
+        height: auto;
+        padding: 8px 16px;
+        font-size: 18px;
+    }
+    .Home{
+        padding:90px 50px;     
+    }
+    .hero-section-text .h1-tag{
+        font-size: 50px;
+        font-weight: 900;
+       
+    }
+    .hero-section-text .p-tag{
+        font-size: 18px;
+        padding-right: 40px;
+    }
+    .hero-section-assets img{
+        width: 80%;
+        height: auto;
+    }
+
+
+
+
+    .success{
+        padding: 70px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F9F8FF;
+    }
+   
+    .text p{
+        font-size: 18px;
+        padding-right: 10px;
+    }
+    .lottie-file lottie-player{
+        width: 90%;
+        height: auto;
+    }
+
+
+
+    .Service{
+        padding: 100px 50px;
+    }
+    .serv{
+        margin-bottom: 20px;
+    }
+    .serv:nth-child(1){
+        width: 180px;
+    }
+    .serv:nth-child(1) h1{
+        font-size: 28px;
+    }
+    .serv:nth-child(2){
+        width: 280px;
+        height: 320px;
+        box-sizing: border-box;
+        padding: 15px 15px; 
+    }
+    .serv:nth-child(2) img{
+        width: 150px;
+        height: auto;
+        padding-bottom: 30px;
+        margin-top:-10px;
+    }
+    .serv:nth-child(2) h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .serv:nth-child(2) p{
+        font-size: 16px;
+    }
+    
+    .serv:nth-child(3){
+        width: 280px;
+        height: 320px;
+        box-sizing: border-box;
+        padding: 15px 15px; 
+    }
+    .serv:nth-child(3) img{
+        width: 150px;
+        height: auto;
+        padding-bottom: 30px;
+        margin-top:-10px;
+    }
+    .serv:nth-child(3) h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .serv:nth-child(3) p{
+        font-size: 16px;
+    }
+
+    .serv:nth-child(4){
+        width: 280px;
+        height: 320px;
+        box-sizing: border-box;
+        padding: 15px 15px; 
+    }
+    .serv:nth-child(4) img{
+        width: 150px;
+        height: auto;
+        padding-bottom: 30px;
+        margin-top:-10px;
+    }
+    .serv:nth-child(4) h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .serv:nth-child(4) p{
+        font-size: 16px;
+    }
+
+
+    .solution-text{
+        padding: 0 200px;
+        padding-bottom: 50px;
+    }
+
+
+    .left-text div h2{
+        font-size: 17px;
+    }
+
+    .left-text div p{
+        font-size: 15px;
+    }
+    .image img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .contact{
+        padding: 100px 30px; 
+        box-sizing: border-box;
+    }
+    .contact-text {
+        width: 33%;
+    }
+    .contact-text h1{
+        font-size: 28px;
+        padding-bottom: 25px;
+    }
+    .contact-text p{
+        font-size: 15px;
+    }
+    .contact-text p i{
+        font-size: 15px;
+    }
+    .contact-img{
+        width: 25%;
+    }
+    .contact-img img{
+        width: 90%;
+        height: auto;
+    }
+    .contact-form{
+        width: 35%;
+        padding-right: 50px;
+        margin-top: -70px;
+    }
+    .contact-form form h1{
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 10px;
+        font-size: 28px;
+    }
+    .contact-form form{
+        padding: 40px 40px;
+    }
+
+    .contact-form form input[type=text]{
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-color: 5px solid #9873FF;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .footer{
+        width: 94%;
+        padding: 30px 30px;
+        box-sizing: border-box;
+    }
+    .footer div{
+        width: 22%;     
+    
+    }
+}
+
+
+
+@media(max-width: 767px){
+
+    .menubar{
+        padding: 12px 12px ;
+    }
+    .menubar .menu-ul{
+	    position: fixed;
+	    height: 100vh;
+	    width: 100%;
+	    left: -100%;
+	    top: 0;
+	    background:white;
+	    text-align: center;
+	    padding-top: 20px;
+	    transition: all 0.3s ease;
+    }
+    .menubar .menu-ul li{
+        display:block;
+
+    }
+    .max-width .logo img{
+        width: 120px;
+        height: auto;
+    }
+    .menubar .menu-ul.active{
+        left: 0;
+    }
+
+    .menubar .menu-ul li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 20px;
+
+    }
+    .menubar .menu-ul li:nth-child(1){
+        color: #9873FF;
+        border: none;
+    }
+    .menubar .menu-ul li:hover{
+        color: #9873FF;
+        border: none;
+        transition: .2s;
+    }
+    .menubar .menu-ul li a:hover{
+        color: #9873FF;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .button{
+        display: inline-block;
+        margin-top: 0px;
+    }
+    .btn{
+        height: auto;
+        font-size: 16px;
+        padding: 9px 15px;
+    }
+
+
+
+    .Home{
+        padding:80px 20px;      
+    }
+    
+    .hero-section-text{
+        width: 100%;
+        text-align: center;
+    }
+    .hero-section-text .h1-tag{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .hero-section-text .p-tag{
+        font-size: 17px;
+        padding-right: 0px;
+    }
+    .hero-section-assets{
+        width: 100%;
+        padding-top: 40px;
+        
+    }
+    .hero-section-assets img{
+        width: 90%;
+        height: auto;
+        animation: none;
+
+    }
+
+    .counter{
+        padding: 50px 20px;
+        justify-content: center;
+    }
+
+
+
+    .success{
+        padding: 50px 50px;
+    }
+    .text{
+        width: 100%;
+        
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    
+    .text p{
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    
+    .lottie-file{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .lottie-file lottie-player{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .Service{
+        padding: 100px 30px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .serv:nth-child(3){
+        margin-top: 0px;
+    }
+
+    .solution-text{
+        text-align: center;
+        padding: 0 60px;
+        padding-bottom: 50px;
+    }
+    .solution-text h1{
+        font-size: 25px;
+    }
+    .left-text{
+        width: 100%;
+        text-align: left;
+    }
+    .left-text div h2{
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+    .left-text div p{
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .image{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .right-text{
+        width: 100%;
+    }
+    .image img{
+        width:80%;
+        height: auto;
+        align-items: center;
+    }
+
+    .contact{
+        padding: 50px 30px; 
+        box-sizing: border-box;
+    }
+    .contact-text {
+        width: 100%;
+    }
+    .contact-text h1{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contact-text p{
+        font-size: 16px;
+    }
+    .contact-text p i{
+        font-size: 16px;
+    }
+    .contact-img{
+        display: none;
+    }
+
+    .contact-form{
+        width: 90%;
+        padding-top: 100px;
+        
+    }
+    .contact-form form h1{
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 10px;
+        font-size: 28px;
+    }
+    .contact-form form{
+        padding: 40px 40px;
+    }
+
+    .contact-form form input[type=text]{
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-color: 5px solid #9873FF;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    
+
+    .footer div{
+        width: 100%;   
+        padding-top: 20px;  
+    
+    }
+    .footer div h2{
+        font-size: 16px;
+        color: #42484e;
+        padding-bottom: 10px;
+    }
+    .footer div a{
+        font-size: 15px;
+        text-decoration: none;
+        line-height: 8px;
+    }
+
+    .copyright p{
+        font-size: 14px;
+    }
+
+
+
+}
